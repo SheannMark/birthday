@@ -1,0 +1,219 @@
+body {
+  font: 1em 'Ubuntu', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.fold {
+  min-height: 100vh;
+}
+
+h1 {
+  margin: 0.5em 0 0 0;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  margin: 3em 0;
+}
+h3 span:nth-child(8n+0) {
+  -moz-animation: candy linear 0.25s infinite forwards 0s;
+  -webkit-animation: candy linear 0.25s infinite forwards 0s;
+  animation: candy linear 0.25s infinite forwards 0s;
+}
+h3 span:nth-child(8n+1) {
+  -moz-animation: candy linear 0.25s infinite forwards -0.03125s;
+  -webkit-animation: candy linear 0.25s infinite forwards -0.03125s;
+  animation: candy linear 0.25s infinite forwards -0.03125s;
+}
+h3 span:nth-child(8n+2) {
+  -moz-animation: candy linear 0.25s infinite forwards -0.0625s;
+  -webkit-animation: candy linear 0.25s infinite forwards -0.0625s;
+  animation: candy linear 0.25s infinite forwards -0.0625s;
+}
+h3 span:nth-child(8n+3) {
+  -moz-animation: candy linear 0.25s infinite forwards -0.09375s;
+  -webkit-animation: candy linear 0.25s infinite forwards -0.09375s;
+  animation: candy linear 0.25s infinite forwards -0.09375s;
+}
+h3 span:nth-child(8n+4) {
+  -moz-animation: candy linear 0.25s infinite forwards -0.125s;
+  -webkit-animation: candy linear 0.25s infinite forwards -0.125s;
+  animation: candy linear 0.25s infinite forwards -0.125s;
+}
+h3 span:nth-child(8n+5) {
+  -moz-animation: candy linear 0.25s infinite forwards -0.15625s;
+  -webkit-animation: candy linear 0.25s infinite forwards -0.15625s;
+  animation: candy linear 0.25s infinite forwards -0.15625s;
+}
+h3 span:nth-child(8n+6) {
+  -moz-animation: candy linear 0.25s infinite forwards -0.1875s;
+  -webkit-animation: candy linear 0.25s infinite forwards -0.1875s;
+  animation: candy linear 0.25s infinite forwards -0.1875s;
+}
+h3 span:nth-child(8n+7) {
+  -moz-animation: candy linear 0.25s infinite forwards -0.21875s;
+  -webkit-animation: candy linear 0.25s infinite forwards -0.21875s;
+  animation: candy linear 0.25s infinite forwards -0.21875s;
+}
+h3 span:nth-child(8n+8) {
+  -moz-animation: candy linear 0.25s infinite forwards -0.25s;
+  -webkit-animation: candy linear 0.25s infinite forwards -0.25s;
+  animation: candy linear 0.25s infinite forwards -0.25s;
+}
+
+@-moz-keyframes candy {
+  0% {
+    color: #0b3bfb;
+  }
+  12.5% {
+    color: #2e842d;
+  }
+  25% {
+    color: #165d16;
+  }
+  37.5% {
+    color: #ee2a19;
+  }
+  50% {
+    color: #a21318;
+  }
+  62.5% {
+    color: #e91c62;
+  }
+  75% {
+    color: #aa1145;
+  }
+  87.5% {
+    color: #456aff;
+  }
+  100% {
+    color: #0b3bfb;
+  }
+}
+@-webkit-keyframes candy {
+  0% {
+    color: #0b3bfb;
+  }
+  12.5% {
+    color: #2e842d;
+  }
+  25% {
+    color: #165d16;
+  }
+  37.5% {
+    color: #ee2a19;
+  }
+  50% {
+    color: #a21318;
+  }
+  62.5% {
+    color: #e91c62;
+  }
+  75% {
+    color: #aa1145;
+  }
+  87.5% {
+    color: #456aff;
+  }
+  100% {
+    color: #0b3bfb;
+  }
+}
+@keyframes candy {
+  0% {
+    color: #0b3bfb;
+  }
+  12.5% {
+    color: #2e842d;
+  }
+  25% {
+    color: #165d16;
+  }
+  37.5% {
+    color: #ee2a19;
+  }
+  50% {
+    color: #a21318;
+  }
+  62.5% {
+    color: #e91c62;
+  }
+  75% {
+    color: #aa1145;
+  }
+  87.5% {
+    color: #456aff;
+  }
+  100% {
+    color: #0b3bfb;
+  }
+}
+.avatar__main .avatar__picture, .avatar__sub .avatar__picture {
+  border-radius: 50%;
+  -moz-transition: -moz-transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -o-transition: -o-transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-transition: -webkit-transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.avatar__main a:hover .avatar__picture {
+  box-shadow: 0 0 0 0.5em #e91e63, 0 0 5em #e91e63;
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.avatar__sub a:hover .avatar__picture {
+  box-shadow: 0 0 0 0.5em #259b24, 0 0 5em #259b24;
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.birthdaychild {
+  background: #f8bbd0;
+  padding: 1em 0 1.5em 0;
+  margin: 0;
+}
+.birthdaychild h1 {
+  color: #fff;
+}
+.birthdaychild h2 {
+  font-size: 3.5em;
+  margin: 0 0 0.25em 0;
+  color: #e91e63;
+}
+.birthdaychild .avatar__picture {
+  box-shadow: 0 0 0 0.5em #f8bbd0, 0 0 50em #e91e63;
+  margin: 0 0 1em 0;
+}
+
+.present {
+  font-size: 1.25em;
+  background: black;
+  padding: 1.5em 0;
+  margin: 0;
+}
+.present .present__description {
+  margin: 1em 0;
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #fff;
+}
+.present .avatar__picture {
+  margin: 0.5em 0;
+  box-shadow: 0 0 0 0.5em #a3e9a4, 0 0 7.5em #5677fc;
+}
+.present .present__spend {
+  margin: 1em 0;
+  color: #fff;
+}
+
+.spend {
+  margin: 1em 0;
+}
