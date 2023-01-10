@@ -1,0 +1,20 @@
+{
+        "name": "birthday",
+        "version": "1.0.0",
+        "description": "",
+        "scripts": {
+            "build": "echo \"No build specified\"",
+            "test": "echo \"No test specified\"",
+            "start": "echo \"starting\""
+        },
+        "repository": {
+            "type": "git",
+            "url": "git+https://github.com/SheannMark/birthday.git"
+        },
+        "author": "",
+        "license": "ISC",
+        "bugs": {
+            "url": "https://github.com/SheannMark/birthday/issues"
+        },
+        "homepage": "https://github.com/SheannMark/birthday#readme"
+}
